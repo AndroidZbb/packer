@@ -15,10 +15,3 @@ repositories {
 group = 'com.hongju.package'
 version = '0.2.0'
 
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url: uri('../repo'))
-        }
-    }
-}
